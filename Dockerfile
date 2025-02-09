@@ -24,7 +24,7 @@ WORKDIR /app
 COPY --from=build /app/dist/banking-portal /app/dist/banking-portal
 
 # Copy the server file
-COPY server.js .
+# COPY server.js .
 
 # Install Express
 RUN npm install express
