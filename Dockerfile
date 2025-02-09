@@ -29,6 +29,8 @@ COPY server.js .
 # Install Express
 RUN npm install express
 
+RUN npm install -g @angular/cli
+
 # Expose port 8080
 EXPOSE 8080
 
